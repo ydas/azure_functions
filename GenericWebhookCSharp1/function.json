@@ -1,0 +1,24 @@
+{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "direction": "in",
+      "webHookType": "genericJson",
+      "name": "req",
+      "route": "{caller}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "queue",
+      "name": "outQueue",
+      "queueName": "zanranqueue",
+      "connection": "zanranstorage_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
