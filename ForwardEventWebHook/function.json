@@ -15,8 +15,8 @@
     {
       "type": "queue",
       "name": "outQueue",
-      "queueName": "zanranqueue",
-      "connection": "zanranstoragetest_STORAGE",
+      "queueName": "ZANRAN_QUEUE_NAME",
+      "connection": "ZANRAN_STORAGE_NAME",
       "direction": "out"
     }
   ],
