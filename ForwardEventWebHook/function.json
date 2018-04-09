@@ -15,8 +15,8 @@
     {
       "type": "queue",
       "name": "outQueue",
-      "queueName": "ZANRAN_QUEUE_NAME",
-      "connection": "ZANRAN_STORAGE_NAME",
+      "queueName": "zanranqueue",
+      "connection": "ZANRAN_CONNECTION_APP_SETTING",
       "direction": "out"
     }
   ],
